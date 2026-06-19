@@ -1,8 +1,10 @@
-GAME_VERSION ?= EMERALD
-TITLE        ?= POKEMON EMER
-GAME_CODE    ?= BPEE
-BUILD_NAME   ?= emerald
-MAP_VERSION  ?= emerald
+GAME_VERSION ?= FIRERED
+TITLE        ?= POKEMON FIRE
+GAME_CODE    ?= BPRE
+BUILD_NAME   ?= firered
+MAP_VERSION  ?= firered
+
+TOOLCHAIN := /ucrt64/bin/
 
 ifeq (firered, $(or $(BUILD), $(MAKECMDGOALS)))
   	GAME_VERSION 	:= FIRERED

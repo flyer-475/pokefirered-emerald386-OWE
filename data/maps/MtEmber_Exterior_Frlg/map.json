@@ -3,7 +3,6 @@
   "name": "MtEmber_Exterior_Frlg",
   "layout": "LAYOUT_MT_EMBER_EXTERIOR",
   "music": "MUS_RG_SEVII_CAVE",
-  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_MT_EMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -14,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "type": "object",
@@ -273,7 +272,7 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 38,
+      "x": 35,
       "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -297,6 +296,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtEmber_Exterior_EventScript_ItemDireHit",
       "flag": "FLAG_HIDE_MT_EMBER_EXTERIOR_DIRE_HIT"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_ENTEI",
+      "x": 38,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_StaticEntei",
+      "flag": "FLAG_ENCOUNTER_ENTEI"
     }
   ],
   "warp_events": [
@@ -393,5 +406,6 @@
       "quantity": 1,
       "underfoot": false
     }
-  ]
+  ],
+  "region": "REGION_KANTO"
 }

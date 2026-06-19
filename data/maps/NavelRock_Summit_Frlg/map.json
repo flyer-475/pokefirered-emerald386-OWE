@@ -3,7 +3,6 @@
   "name": "NavelRock_Summit_Frlg",
   "layout": "LAYOUT_NAVEL_ROCK_SUMMIT",
   "music": "MUS_RG_SEVII_CAVE",
-  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_NAVEL_ROCK_FRLG",
   "requires_flash": false,
   "weather": "WEATHER_SHADE",
@@ -14,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "local_id": "LOCALID_NAVEL_ROCK_HO_OH",
@@ -63,5 +62,6 @@
       "quantity": 1,
       "underfoot": true
     }
-  ]
+  ],
+  "region": "REGION_KANTO"
 }

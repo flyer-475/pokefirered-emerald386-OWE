@@ -3,7 +3,6 @@
   "name": "SevenIsland_TanobyRuins_DilfordChamber_Frlg",
   "layout": "LAYOUT_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER",
   "music": "MUS_RG_SEVII_DUNGEON",
-  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_DILFORD_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -14,9 +13,22 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_INDOOR_1",
-  "connections": 0,
+  "connections": null,
   "object_events": [
-
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_REGIROCK",
+      "x": 11,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_StaticRegirock",
+      "flag": "FLAG_ENCOUNTER_REGIROCK"
+    }
   ],
   "warp_events": [
     {
@@ -27,10 +39,7 @@
       "dest_warp_id": "3"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO"
 }

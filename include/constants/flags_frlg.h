@@ -149,20 +149,20 @@
 #define FLAG_HIDE_SAFFRON_CITY_POKECENTER_SABRINA_JOURNALS 0x0AE
 
 // Unused?
-#define FLAG_0x0AF               0x0AF
-#define FLAG_0x0B0               0x0B0
-#define FLAG_0x0B1               0x0B1
-#define FLAG_0x0B2               0x0B2
-#define FLAG_0x0B3               0x0B3
-#define FLAG_0x0B4               0x0B4
-#define FLAG_0x0B5               0x0B5
-#define FLAG_0x0B6               0x0B6
-#define FLAG_0x0B7               0x0B7
-#define FLAG_0x0B8               0x0B8
-#define FLAG_0x0B9               0x0B9
-#define FLAG_0x0BA               0x0BA
-#define FLAG_0x0BB               0x0BB
-#define FLAG_0x0BC               0x0BC
+#define FLAG_ENCOUNTER_MEW                  0x0AF
+#define FLAG_ENCOUNTER_RAIKOU               0x0B0
+#define FLAG_ENCOUNTER_ENTEI                0x0B1
+#define FLAG_ENCOUNTER_SUICUNE              0x0B2
+#define FLAG_ENCOUNTER_CELEBI               0x0B3
+#define FLAG_ENCOUNTER_REGIROCK             0x0B4
+#define FLAG_ENCOUNTER_REGICE               0x0B5
+#define FLAG_ENCOUNTER_REGISTEEL            0x0B6
+#define FLAG_ENCOUNTER_GROUDON              0x0B7
+#define FLAG_ENCOUNTER_KYOGRE               0x0B8
+#define FLAG_ENCOUNTER_RAYQUAZA             0x0B9
+#define FLAG_ENCOUNTER_LATIOS               0x0BA
+#define FLAG_ENCOUNTER_LATIAS               0x0BB
+#define FLAG_ENCOUNTER_JIRACHI              0x0BC
 #define FLAG_0x0BD               0x0BD
 #define FLAG_0x0BE               0x0BE
 #define FLAG_0x0BF               0x0BF

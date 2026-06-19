@@ -828,3 +828,343 @@ Debug_EventScript_TellTheTime_Text_0:
 
 DebugEventScript_PrintWeekday_Text_0:
 	.string "Time of day: {STR_VAR_1}$"
+
+// ============================================================================
+// SCRIPT GLOBALI LEGGENDARI STATICI
+// ============================================================================
+
+// --- MEW (Lv. 30) - PokemonMansion_B1F ---
+EventScript_StaticMew::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_MEW, 30, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticMew_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticMew_GaveOver
+	release
+	end
+
+EventScript_StaticMew_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_MEW
+	release
+	end
+
+// --- CELEBI (Lv. 30) - ThreeIsland_BerryForest ---
+EventScript_StaticCelebi::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_CELEBI, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_CELEBI, 30, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticCelebi_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticCelebi_GaveOver
+	release
+	end
+
+EventScript_StaticCelebi_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_CELEBI
+	release
+	end
+
+// --- JIRACHI (Lv. 30) - MtMoon_BF2 ---
+EventScript_StaticJirachi::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_JIRACHI, 30, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticJirachi_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticJirachi_GaveOver
+	release
+	end
+
+EventScript_StaticJirachi_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_JIRACHI
+	release
+	end
+
+// --- RAIKOU (Lv. 45) - PowerPlant ---
+EventScript_StaticRaikou::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_RAIKOU, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_RAIKOU, 45, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticRaikou_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticRaikou_GaveOver
+	release
+	end
+
+EventScript_StaticRaikou_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_RAIKOU
+	release
+	end
+
+// --- SUICUNE (Lv. 45) - TwoIsland_CapeBrink ---
+EventScript_StaticSuicune::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_SUICUNE, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_SUICUNE, 45, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticSuicune_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticSuicune_GaveOver
+	release
+	end
+
+EventScript_StaticSuicune_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_SUICUNE
+	release
+	end
+
+// --- ENTEI (Lv. 45) - MtEmber_Exterior ---
+EventScript_StaticEntei::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_ENTEI, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_ENTEI, 45, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticEntei_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticEntei_GaveOver
+	release
+	end
+
+EventScript_StaticEntei_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_ENTEI
+	release
+	end
+
+// --- REGIROCK (Lv. 60) - SevenIsland_TanobyRuins ---
+EventScript_StaticRegirock::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_REGIROCK, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_REGIROCK, 60, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticRegirock_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticRegirock_GaveOver
+	release
+	end
+
+EventScript_StaticRegirock_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_REGIROCK
+	release
+	end
+
+// --- REGICE (Lv. 60) - MoneanChamber ---
+EventScript_StaticRegice::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_REGICE, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_REGICE, 60, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticRegice_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticRegice_GaveOver
+	release
+	end
+
+EventScript_StaticRegice_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_REGICE
+	release
+	end
+
+// --- REGISTEEL (Lv. 60) - ViapoisChamber_Frlg ---
+EventScript_StaticRegisteel::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_REGISTEEL, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_REGISTEEL, 60, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticRegisteel_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticRegisteel_GaveOver
+	release
+	end
+
+EventScript_StaticRegisteel_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_REGISTEEL
+	release
+	end
+
+// --- GROUDON (Lv. 70) - MtEmbers_SummitPath ---
+EventScript_StaticGroudon::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_GROUDON, 70, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticGroudon_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticGroudon_GaveOver
+	release
+	end
+
+EventScript_StaticGroudon_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_GROUDON
+	release
+	end
+
+// --- KYOGRE (Lv. 70) - IcefallCave_Back ---
+EventScript_StaticKyogre::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_KYOGRE, 70, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticKyogre_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticKyogre_GaveOver
+	release
+	end
+
+EventScript_StaticKyogre_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_KYOGRE
+	release
+	end
+
+// --- RAYQUAZA (Lv. 85) - PokemonLeague_IndigoPlateau_Exterior / AlteringCave ---
+EventScript_StaticRayquaza::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_RAYQUAZA, 85, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticRayquaza_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticRayquaza_GaveOver
+	release
+	end
+
+EventScript_StaticRayquaza_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_RAYQUAZA
+	release
+	end
+
+// --- LATIOS (Lv. 40) - Tanobyruins ---
+EventScript_StaticLatios::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_LATIOS, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_LATIOS, 40, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticLatios_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticLatios_GaveOver
+	release
+	end
+
+EventScript_StaticLatios_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_LATIOS
+	release
+	end
+
+// --- LATIAS (Lv. 40) - Tanobyruins ---
+EventScript_StaticLatias::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_LATIAS, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_LATIAS, 40, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_StaticLatias_GaveOver
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, EventScript_StaticLatias_GaveOver
+	release
+	end
+
+EventScript_StaticLatias_GaveOver:
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_ENCOUNTER_LATIAS
+	release
+	end

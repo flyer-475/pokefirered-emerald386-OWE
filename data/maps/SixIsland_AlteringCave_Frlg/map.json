@@ -3,7 +3,6 @@
   "name": "SixIsland_AlteringCave_Frlg",
   "layout": "LAYOUT_SIX_ISLAND_ALTERING_CAVE",
   "music": "MUS_RG_SEVII_CAVE",
-  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_ALTERING_CAVE_FRLG",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -14,9 +13,22 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
-
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_RAYQUAZA_STILL",
+      "x": 8,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_StaticRayquaza",
+      "flag": "FLAG_ENCOUNTER_RAYQUAZA"
+    }
   ],
   "warp_events": [
     {
@@ -27,10 +39,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO"
 }

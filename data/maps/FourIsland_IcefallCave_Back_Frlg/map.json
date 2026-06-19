@@ -3,7 +3,6 @@
   "name": "FourIsland_IcefallCave_Back_Frlg",
   "layout": "LAYOUT_FOUR_ISLAND_ICEFALL_CAVE_BACK",
   "music": "MUS_RG_SEVII_CAVE",
-  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_ICEFALL_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -75,6 +74,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "FLAG_HIDE_ICEFALL_CAVE_ROCKETS"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_KYOGRE_FRONT",
+      "x": 12,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_StaticKyogre",
+      "flag": "FLAG_ENCOUNTER_KYOGRE"
     }
   ],
   "warp_events": [
@@ -115,5 +128,6 @@
       "script": "FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene"
     }
   ],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_KANTO"
 }

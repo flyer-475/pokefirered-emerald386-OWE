@@ -1,0 +1,8 @@
+how to vuild pokemerald
+
+cd /c/Users/win64-sandboxvm/Desktop/decomp\ roms/
+
+cd pokeemerald-expansion/
+
+export PYTHONUTF8=1
+make MINGW=UCRT64 -j$(nproc)
