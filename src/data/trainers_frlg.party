@@ -7227,7 +7227,7 @@ Level: 28
 IVs: 24 HP / 0 Atk / 0 Def / 32 SpA / 0 SpD / 0 Spe
 - Sleep Powder
 - Magical Leaf
-- SolarBeam
+- Solar Beam
 - Toxic
 
 Vileplume
@@ -14179,3 +14179,357 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Muk
 Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_BRENDAN_CHAMPION ===
+Name: BRENDAN
+Class: Elite Four Frlg
+Pic: Brendan
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Blue
+
+Latios
+Level: 83
+IVs: 52 HP / 4 Atk / 4 Def / 200 SpA / 4 SpD / 152 Spe
+- Dragon Claw
+- Psychic
+- Calm Mind
+- Recover
+
+Swampert
+Level: 84
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Surf
+- Ice Beam
+- Protect
+
+Salamence
+Level: 87
+IVs: 31 HP / 120 Atk / 0 Def / 120 SpA / 0 SpD / 152 Spe
+- Dragon Dance
+- Rock Slide
+- Earthquake
+- Aerial Ace
+
+Metagross @ Leftovers
+Level: 84
+IVs: 60 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Meteor Mash
+- Earthquake
+- Psychic
+- Shadow Ball
+
+Deoxys
+Level: 83
+IVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+- Psycho Boost
+- Superpower
+- Shadow Ball
+- Extreme Speed
+
+Groudon @ Leftovers
+Level: 85
+IVs: 252 HP / 52 Atk / 52 Def / 52 SpA / 52 SpD / 20 Spe
+- Earthquake
+- Rock Slide
+- Solar Beam
+- Fire Blast
+
+=== TRAINER_MAY_CHAMPION ===
+Name: MAY
+Class: Elite Four Frlg
+Pic: May
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Blue
+
+Raikou
+Level: 77
+IVs: 31 HP / 0 Atk / 31 Def / 252 SpA / 31 SpD / 60 Spe
+- Thunderbolt
+- Calm Mind
+- Crunch
+- Substitute
+
+Blaziken
+Level: 80
+IVs: 12 HP / 120 Atk / 0 Def / 100 SpA / 0 SpD / 252 Spe
+- Flamethrower
+- Sky Uppercut
+- Rock Slide
+- Swords Dance
+
+Gardevoir
+Level: 78
+IVs: 60 HP / 0 Atk / 31 Def / 120 SpA / 90 SpD / 31 Spe
+- Psychic
+- Thunderbolt
+- Calm Mind
+- Hypnosis
+
+Milotic @ Leftovers
+Level: 77
+IVs: 252 HP / 0 Atk / 4 Def / 120 SpA / 120 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Recover
+- Toxic
+
+Flygon
+Level: 75
+IVs: 0 HP / 252 Atk / 0 Def / 52 SpA / 0 SpD / 200 Spe
+- Earthquake
+- Dragon Claw
+- Fire Blast
+- Crunch
+
+Kyogre @ Mystic Water
+Level: 80
+IVs: 252 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 0 Spe
+- Water Spout
+- Thunder
+- Ice Beam
+- Calm Mind
+
+=== TRAINER_RIVAL_CHAMPION ===
+Name: BLUE
+Class: Elite Four Frlg
+Pic: Champion Rival Frlg
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Yellow
+
+Dragonite
+Level: 82
+IVs: 20 HP / 100 Atk / 0 Def / 120 SpA / 0 SpD / 252 Spe
+- Hyper Beam
+- Thunderbolt
+- Outrage
+- Wing Attack
+
+Zapdos @ Leftovers
+Level: 83
+IVs: 31 HP / 31 Atk / 0 Def / 200 SpA / 31 SpD / 160 Spe
+- Thunderbolt
+- Drill Peck
+- Light Screen
+- Thunder
+
+Charizard
+Level: 82
+IVs: 31 HP / 120 Atk / 31 Def / 120 SpA / 31 SpD / 120 Spe
+- Flamethrower
+- Aerial Ace
+- Earthquake
+- Dragon Dance
+
+Articuno
+Level: 82
+IVs: 90 HP / 31 Atk / 60 Def / 90 SpA / 60 SpD / 31 Spe
+- Ice Beam
+- Fly
+- Water Pulse
+- Mind Reader
+
+Lugia @ Leftovers
+Level: 83
+IVs: 252 HP / 0 Atk / 60 Def / 72 SpA / 60 SpD / 60 Spe
+- Aeroblast
+- Psychic
+- Calm Mind
+- Recover
+
+Mewtwo @ Leftovers
+Level: 85
+IVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+- Psychic
+- Thunderbolt
+- Ice Beam
+- Calm Mind
+
+=== TRAINER_LEAF_CHAMPION ===
+Name: LEAF
+Class: Elite Four Frlg
+Pic: Leaf
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Yellow
+
+Blissey @ Leftovers
+Level: 78
+IVs: 252 HP / 0 Atk / 120 Def / 12 SpA / 120 SpD / 0 Spe
+- Protect
+- Ice Beam
+- Soft-Boiled
+- Toxic
+
+Skarmory @ Leftovers
+Level: 79
+IVs: 252 HP / 0 Atk / 160 Def / 0 SpA / 120 SpD / 20 Spe
+- Protect
+- Sky Attack
+- Steel Wing
+- Spikes
+
+Moltres
+Level: 82
+IVs: 31 HP / 31 Atk / 31 Def / 252 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Overheat
+- Aerial Ace
+- Will-O-Wisp
+
+Jolteon
+Level: 79
+IVs: 31 HP / 31 Atk / 31 Def / 180 SpA / 31 SpD / 120 Spe
+- Thunderbolt
+- Shadow Ball
+- Quick Attack
+- Bite
+
+Blastoise
+Level: 82
+IVs: 252 HP / 0 Atk / 31 Def / 252 SpA / 0 SpD / 0 Spe
+- Surf
+- Ice Beam
+- Hydro Pump
+- Rain Dance
+
+Mew @ Bright Powder
+Level: 85
+IVs: 4 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+- Psychic
+- Earthquake
+- Flamethrower
+- Soft-Boiled
+
+=== TRAINER_RED_CHAMPION ===
+Name: RED
+Class: Elite Four Frlg
+Pic: Red
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Yellow
+
+Raichu @ Light Ball
+Level: 85
+IVs: 0 HP / 100 Atk / 0 Def / 152 SpA / 0 SpD / 200 Spe
+- Thunderbolt
+- Surf
+- Iron Tail
+- Quick Attack
+
+Gengar
+Level: 87
+IVs: 0 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+- Shadow Ball
+- Psychic
+- Thunderbolt
+- Sludge Bomb
+
+Snorlax
+Level: 84
+IVs: 252 HP / 100 Atk / 100 Def / 0 SpA / 52 SpD / 0 Spe
+- Earthquake
+- Shadow Ball
+- Curse
+- Rest
+
+Suicune @ Leftovers
+Level: 86
+IVs: 252 HP / 0 Atk / 100 Def / 52 SpA / 100 SpD / 0 Spe
+- Hydro Pump
+- Ice Beam
+- Rest
+- Calm Mind
+
+Venusaur @ Leftovers
+Level: 87
+IVs: 252 HP / 12 Atk / 0 Def / 120 SpA / 0 SpD / 120 Spe
+- Sludge Bomb
+- Giga Drain
+- Sleep Powder
+- Leech Seed
+
+Ho-Oh @ Sacred Ash
+Level: 90
+IVs: 40 HP / 0 Atk / 40 Def / 252 SpA / 40 SpD / 120 Spe
+- Sacred Fire
+- Aerial Ace
+- Earthquake
+- Recover
+
+=== TRAINER_WALLY_CHAMPION ===
+Name: WALLY
+Class: Elite Four Frlg
+Pic: Wally
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Blue
+
+Latias
+Level: 77
+IVs: 120 HP / 0 Atk / 40 Def / 120 SpA / 120 SpD / 40 Spe
+- Dragon Dance
+- Earthquake
+- Aerial Ace
+- Dragon Breath
+
+Registeel
+Level: 78
+IVs: 252 HP / 0 Atk / 120 Def / 0 SpA / 120 SpD / 0 Spe
+- Iron Defense
+- Toxic
+- Seismic Toss
+- Rest
+
+Regice @ Lum Berry
+Level: 78
+IVs: 252 HP / 0 Atk / 60 Def / 60 SpA / 120 SpD / 0 Spe
+- Ice Beam
+- Thunderbolt
+- Calm Mind
+- Rest
+
+Gardevoir
+Level: 82
+IVs: 120 HP / 0 Atk / 0 Def / 252 SpA / 100 SpD / 20 Spe
+- Psychic
+- Thunderbolt
+- Calm Mind
+- Destiny Bond
+
+Jirachi @ Leftovers
+Level: 80
+IVs: 120 HP / 0 Atk / 0 Def / 252 SpA / 60 SpD / 60 Spe
+- Psychic
+- Thunderbolt
+- Calm Mind
+- Wish
+
+Regirock @ Leftovers
+Level: 78
+IVs: 252 HP / 120 Atk / 120 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Slide
+- Earthquake
+- Curse
+- Explosion

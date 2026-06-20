@@ -1810,6 +1810,12 @@
 #define FLAG_ENCOUNTER_RAYQUAZA               0x0BA
 #define FLAG_ENCOUNTER_LATIOS                 0x0BB
 #define FLAG_ENCOUNTER_LATIAS                 0x0BC
+#define FLAG_DEFEATED_BRENDAN_CHAMPION        0x0BD
+#define FLAG_DEFEATED_MAY_CHAMPION            0x0BE
+#define FLAG_DEFEATED_RIVAL_CHAMPION          0x0BF
+#define FLAG_DEFEATED_LEAF_CHAMPION           0x0C1
+#define FLAG_DEFEATED_RED_CHAMPION            0x0C2
+#define FLAG_DEFEATED_WALLY_CHAMPION          0x0C3
 
 #define FLAG_HIDE_ROUTE2_ETHER                                  0
 #define FLAG_HIDE_ROUTE2_PARALYZE_HEAL                          0

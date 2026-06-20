@@ -1168,3 +1168,151 @@ EventScript_StaticLatias_GaveOver:
 	setflag FLAG_ENCOUNTER_LATIAS
 	release
 	end
+	
+// ============================================================================
+// SCRIPT TRAINER CHAMPIONS 
+// ============================================================================
+PalletTown_EventScript_BrendanChampion::
+    trainerbattle_single TRAINER_BRENDAN_CHAMPION, PalletTown_Text_BrendanIntro, PalletTown_Text_BrendanDefeat, PalletTown_EventScript_BrendanVanished
+    msgbox PalletTown_Text_BrendanPost, MSGBOX_AUTOCLOSE
+    end
+
+PalletTown_EventScript_BrendanVanished::
+    setflag FLAG_DEFEATED_BRENDAN_CHAMPION
+    fadescreen 1
+    removeobject VAR_LAST_TALKED
+    fadescreen 0
+    release
+    end
+
+PalletTown_Text_BrendanIntro:
+    .string "Hey! It's been a while since Hoenn.\n"
+    .string "My team is at its peak. Challenge me!$"
+
+PalletTown_Text_BrendanDefeat:
+    .string "Unbelievable... your power knows no bounds.$"
+
+PalletTown_Text_BrendanPost:
+    .string "You are truly a great Trainer.\n"
+    .string "See you around!$"
+
+PalletTown_EventScript_MayChampion::
+    trainerbattle_single TRAINER_MAY_CHAMPION, PalletTown_Text_MayIntro, PalletTown_Text_MayDefeat, PalletTown_EventScript_MayVanished
+    msgbox PalletTown_Text_MayPost, MSGBOX_AUTOCLOSE
+    end
+
+PalletTown_EventScript_MayVanished::
+    setflag FLAG_DEFEATED_MAY_CHAMPION
+    fadescreen 1
+    removeobject VAR_LAST_TALKED
+    fadescreen 0
+    release
+    end
+
+PalletTown_Text_MayIntro:
+    .string "Hi there! Are you here in Kanto too?\n"
+    .string "Show me how much you've grown in battle!$"
+
+PalletTown_Text_MayDefeat:
+    .string "Oh no... I really hoped to win this time!$"
+
+PalletTown_Text_MayPost:
+    .string "Your strategies are amazing.\n"
+    .string "I'll keep studying to surpass you!$"
+
+PalletTown_EventScript_RivalChampion::
+    trainerbattle_single TRAINER_RIVAL_CHAMPION, PalletTown_Text_RivalIntro, PalletTown_Text_RivalDefeat, PalletTown_EventScript_RivalVanished
+    msgbox PalletTown_Text_RivalPost, MSGBOX_AUTOCLOSE
+    end
+
+PalletTown_EventScript_RivalVanished::
+    setflag FLAG_DEFEATED_RIVAL_CHAMPION
+    fadescreen 1
+    removeobject VAR_LAST_TALKED
+    fadescreen 0
+    release
+    end
+
+PalletTown_Text_RivalIntro:
+    .string "Hey, kiddo! It's me, the Champion!\n"
+    .string "I'll show you what real battling means!$"
+
+PalletTown_Text_RivalDefeat:
+    .string "W-What!? This can't be true!\n"
+    .string "Did I make a mistake?!$"
+
+PalletTown_Text_RivalPost:
+    .string "Tsk... don't get ahead of yourself.\n"
+    .string "Next time I'll crush all of you!$"
+
+PalletTown_EventScript_LeafChampion::
+    trainerbattle_single TRAINER_LEAF_CHAMPION, PalletTown_Text_LeafIntro, PalletTown_Text_LeafDefeat, PalletTown_EventScript_LeafVanished
+    msgbox PalletTown_Text_LeafPost, MSGBOX_AUTOCLOSE
+    end
+
+PalletTown_EventScript_LeafVanished::
+    setflag FLAG_DEFEATED_LEAF_CHAMPION
+    fadescreen 1
+    removeobject VAR_LAST_TALKED
+    fadescreen 0
+    release
+    end
+
+PalletTown_Text_LeafIntro:
+    .string "Did you think Kanto only had Red and Blue?\n"
+    .string "You are dead wrong! Get ready!$"
+
+PalletTown_Text_LeafDefeat:
+    .string "Wow! What an incredible spirit you have!$"
+
+PalletTown_Text_LeafPost:
+    .string "That was an incredibly fun battle.\n"
+    .string "We absolutely have to do this again!$"
+
+PalletTown_EventScript_RedChampion::
+    trainerbattle_single TRAINER_RED_CHAMPION, PalletTown_Text_RedIntro, PalletTown_Text_RedDefeat, PalletTown_EventScript_RedVanished
+    msgbox PalletTown_Text_RedPost, MSGBOX_AUTOCLOSE
+    end
+
+PalletTown_EventScript_RedVanished::
+    setflag FLAG_DEFEATED_RED_CHAMPION
+    fadescreen 1
+    removeobject VAR_LAST_TALKED
+    fadescreen 0
+    release
+    end
+
+PalletTown_Text_RedIntro:
+    .string "...\n"
+    .string "... ...!$"
+
+PalletTown_Text_RedDefeat:
+    .string "..."
+
+PalletTown_Text_RedPost:
+    .string "...$"
+
+PalletTown_EventScript_WallyChampion::
+    trainerbattle_single TRAINER_WALLY_CHAMPION, PalletTown_Text_WallyIntro, PalletTown_Text_WallyDefeat, PalletTown_EventScript_WallyVanished
+    msgbox PalletTown_Text_WallyPost, MSGBOX_AUTOCLOSE
+    end
+
+PalletTown_EventScript_WallyVanished::
+    setflag FLAG_DEFEATED_WALLY_CHAMPION
+    fadescreen 1
+    removeobject VAR_LAST_TALKED
+    fadescreen 0
+    release
+    end
+
+PalletTown_Text_WallyIntro:
+    .string "Thanks to you and my Pokémon, I became\n"
+    .string "strong and healthy. Look at me now!$"
+
+PalletTown_Text_WallyDefeat:
+    .string "I won't give up, I still have a lot to learn.$"
+
+PalletTown_Text_WallyPost:
+    .string "Battling against you always makes my\n"
+    .string "heart race with excitement!$"
+

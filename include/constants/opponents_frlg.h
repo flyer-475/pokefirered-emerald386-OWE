@@ -627,12 +627,18 @@
 #define TRAINER_CHAMPION_REMATCH_BULBASAUR         621
 #define TRAINER_CHAMPION_REMATCH_CHARMANDER        622
 #define TRAINER_CUE_BALL_PAXTON                    623
+#define TRAINER_BRENDAN_CHAMPION                   624
+#define TRAINER_MAY_CHAMPION                       625
+#define TRAINER_RIVAL_CHAMPION                     626
+#define TRAINER_LEAF_CHAMPION                      627
+#define TRAINER_RED_CHAMPION                       628
+#define TRAINER_WALLY_CHAMPION                     629
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT_FRLG can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_FRLG                      624
+#define TRAINERS_COUNT_FRLG                      630
 #define MAX_TRAINERS_COUNT_FRLG                  768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_FRLG_H

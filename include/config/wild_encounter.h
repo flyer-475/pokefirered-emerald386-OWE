@@ -2,7 +2,7 @@
 #define GUARD_CONFIG_WILD_ENCOUNTER_H
 
 // Vanilla
-#define WE_VANILLA_RANDOM           TRUE    // If TRUE, Pokémon can randomly spawn on tiles that can trigger wild encounters, as in vanilla.
+#define WE_VANILLA_RANDOM           FALSE    // If TRUE, Pokémon can randomly spawn on tiles that can trigger wild encounters, as in vanilla.
 #define WE_FLAG_NO_ENCOUNTER        0       // If this flag is set, wild encounters will be disabled.
 
 // Double Wild Battles
